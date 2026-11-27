@@ -39,9 +39,9 @@ export default function Hero() {
             className="max-w-3xl text-5xl leading-[1.08] font-bold tracking-tight text-brand-ink sm:text-6xl lg:text-7xl"
           >
             Improving lives through{" "}
-            <span className="text-brand-pink">love</span> &{" "}
-            <span className="text-brand-teal">care</span>, Advocacy, Capacity
-            building, <span className="text-brand-orange">Support</span>.
+            <span className="text-brand-pink">Love</span>,{" "}
+            <span className="text-brand-teal">Care</span>, Advocacy, Capacity
+            Building & <span className="text-brand-orange">Support</span>.
           </h1>
 
           <div className="mt-9 flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
