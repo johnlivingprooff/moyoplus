@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import MobileNav from "@/components/mobile-nav";
 
 const navLinks = [
   { label: "About Us", href: "#about-us" },
@@ -28,7 +29,7 @@ export default function SiteHeader() {
           />
         </Link>
 
-        <div className="flex min-w-0 flex-1 items-center justify-center gap-1 overflow-x-auto">
+        <div className="hidden min-w-0 flex-1 items-center justify-center gap-1 lg:flex">
           {navLinks.map((link) => (
             <Link
               key={link.href}
@@ -40,12 +41,15 @@ export default function SiteHeader() {
           ))}
         </div>
 
-        <Link
-          href="#get-involved"
-          className="shrink-0 rounded-lg border border-brand-pink/30 px-4 py-2 font-inter text-[0.75rem] font-semibold whitespace-nowrap text-brand-ink transition-colors duration-300 hover:border-brand-pink hover:bg-brand-pink hover:text-white focus-visible:border-brand-pink focus-visible:bg-brand-pink focus-visible:text-white focus-visible:outline-none sm:text-[0.8rem]"
-        >
-          Support Us
-        </Link>
+        <div className="ml-auto flex items-center gap-2 lg:ml-0">
+          <Link
+            href="#get-involved"
+            className="shrink-0 rounded-lg border border-brand-pink/30 px-4 py-2 font-inter text-[0.75rem] font-semibold whitespace-nowrap text-brand-ink transition-colors duration-300 hover:border-brand-pink hover:bg-brand-pink hover:text-white focus-visible:border-brand-pink focus-visible:bg-brand-pink focus-visible:text-white focus-visible:outline-none sm:text-[0.8rem]"
+          >
+            Support Us
+          </Link>
+          <MobileNav />
+        </div>
       </nav>
     </header>
   );

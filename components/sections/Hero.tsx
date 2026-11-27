@@ -27,7 +27,7 @@ export default function Hero() {
           fill
           priority
           sizes="(max-width: 1024px) 100vw, 58vw"
-          className="object-cover object-center"
+          className="-translate-y-20 object-cover object-center lg:translate-y-0"
           style={fade}
         />
       </div>
@@ -40,13 +40,9 @@ export default function Hero() {
           >
             Improving lives through{" "}
             <span className="text-brand-pink">love</span> &{" "}
-            <span className="text-brand-teal">care</span>.
+            <span className="text-brand-teal">care</span>, Advocacy, Capacity
+            building, <span className="text-brand-orange">Support</span>.
           </h1>
-
-          <p className="mt-6 max-w-xl text-xl leading-8 text-zinc-600 sm:text-2xl">
-            Advocacy. Capacity building.{" "}
-            <span className="font-semibold text-brand-orange">Support.</span>
-          </p>
 
           <div className="mt-9 flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
             <Link
@@ -74,7 +70,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="absolute right-[4vw] bottom-8 rounded-2xl bg-brand-teal px-5 py-3 text-white shadow-lg lg:right-[6vw] lg:bottom-16">
+      <div className="absolute right-[4vw] bottom-8 hidden rounded-2xl bg-brand-teal px-5 py-3 text-white shadow-lg transition-transform duration-500 hover:scale-110 lg:right-[6vw] lg:bottom-16 lg:block">
         <p className="text-xs font-medium opacity-90">Moyo Plus</p>
         <p className="text-sm font-semibold">Improving Lives</p>
       </div>
