@@ -1,1 +1,1 @@
-[https://moyoplus.eiteone.org/](Moyo+)
+[Moyo+](https://moyoplus.eiteone.org/)
