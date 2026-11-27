@@ -26,7 +26,7 @@ export default function AboutUs() {
     <section
       id="about-us"
       aria-labelledby="about-heading"
-      className="relative overflow-hidden py-24 lg:py-32"
+      className="rise-item relative overflow-hidden py-24 lg:py-32"
     >
       <svg
         aria-hidden="true"

@@ -12,7 +12,7 @@ const navLinks = [
 
 export default function SiteHeader() {
   return (
-    <header className="sticky top-0 z-50 mx-[2vw] mt-3">
+    <header className="sticky top-4 z-50 mx-[2vw] mt-3">
       <nav
         aria-label="Main navigation"
         className="flex w-full items-center gap-3 rounded-2xl border border-black/10 bg-white/60 px-3 py-2 shadow-sm shadow-black/5 backdrop-blur-xl sm:px-4"

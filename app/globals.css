@@ -73,6 +73,10 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
   .reveal .rise-item {
     opacity: 1;
   }

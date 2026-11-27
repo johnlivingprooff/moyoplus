@@ -11,7 +11,7 @@ const links = [
 
 export default function SiteFooter() {
   return (
-    <footer className="relative overflow-hidden bg-brand-teal-dark text-white">
+    <footer className="rise-item relative overflow-hidden bg-brand-teal-dark text-white">
       <Image
         aria-hidden="true"
         src="/images/moyo-plus-mark.png"

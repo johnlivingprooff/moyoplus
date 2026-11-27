@@ -7,6 +7,7 @@ import Commitment from "@/components/sections/Commitment";
 import GetInvolved from "@/components/sections/GetInvolved";
 import Stories from "@/components/sections/Stories";
 import SiteFooter from "@/components/site-footer";
+import Reveal from "@/components/reveal";
 
 export default function Home() {
   return (
@@ -21,15 +22,21 @@ export default function Home() {
 
       <SiteHeader />
       <main className="relative flex-1">
-        <Hero />
-        <AboutUs />
+        <Reveal>
+          <Hero />
+        </Reveal>
+        <Reveal>
+          <AboutUs />
+        </Reveal>
         <FocusAreas />
         <Approach />
         <Commitment />
         <GetInvolved />
         <Stories />
       </main>
-      <SiteFooter />
+      <Reveal>
+        <SiteFooter />
+      </Reveal>
     </div>
   );
 }

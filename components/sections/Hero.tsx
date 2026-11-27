@@ -15,7 +15,7 @@ export default function Hero() {
     <section
       id="hero"
       aria-labelledby="hero-heading"
-      className="relative overflow-hidden"
+      className="rise-item relative overflow-hidden"
     >
       <div
         aria-hidden="true"
